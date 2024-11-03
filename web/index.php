@@ -2,7 +2,8 @@
 
 declare(strict_types=1);
 
-function calculate(): array {
+function calculate(): array
+{
     $a = 100;
     $b = 200;
     $sum = $a + $b;
