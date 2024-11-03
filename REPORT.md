@@ -2,7 +2,7 @@
 
 Есть сервер с вот такой конфигурацией: <https://www.cpubenchmark.net/cpu.php?cpu=Intel+Xeon+E5-2650L+v4+%40+1.70GHz&id=3054&cpuCount=2> и 64 GB ОЗУ. Разворачиваем на нем веб сервер со скриптом [web/index.php](https://github.com/KostikShutov/test-cases/blob/main/web/index.php), который считает хэши md5.
 
-Также у меня есть алертер, который постоянно отправляет информацию о своем состоянии ко мне в телегу:
+Также у меня есть [алертер](https://github.com/KostikShutov/tg-info-alerter), который постоянно отправляет информацию о своем состоянии ко мне в телегу:
 
 ![Состояние покоя](/screens/1.png "Состояние покоя")
 
