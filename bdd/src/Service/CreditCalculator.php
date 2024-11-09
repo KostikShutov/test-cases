@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Project\Credit;
+namespace App\Service;
 
 use InvalidArgumentException;
 
 /**
- * @see \Tests\Unit\CreditCalculatorCest
+ * @see \Tests\Unit\Service\CreditCalculatorCest
  */
 class CreditCalculator
 {

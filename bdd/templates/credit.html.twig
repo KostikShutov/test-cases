@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Credit{% endblock %}
+
+{% block body %}
+    <form action="{{ path('credit_page') }}">
+        <label for="amount">Amount:</label><br>
+        <input type="number" id="amount" name="amount"{% if amount is not null %} value="{{ amount }}"{% endif %}>
+        <br>
+        <label for="periodInMonths">Period in months:</label>
+        <br>
+        <input type="number" id="periodInMonths" name="periodInMonths"{% if periodInMonths is not null %} value="{{ periodInMonths }}"{% endif %}>
+        <br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    {% if averagePayment is not null %}
+        <br>
+        <span>Average payment is {{ averagePayment }}</span>
+    {% endif %}
+{% endblock %}
